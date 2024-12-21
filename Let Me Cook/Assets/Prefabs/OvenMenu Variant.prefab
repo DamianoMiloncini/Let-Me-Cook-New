@@ -1,0 +1,557 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3229459199533332475
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 440309424455493572, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 440309424455493572, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1139101360746589064, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_Name
+      value: EggItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 1141685799346157961, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.966495
+      objectReference: {fileID: 0}
+    - target: {fileID: 1198128177038660989, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1198128177038660989, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1198128177038660989, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1198128177038660989, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1198128177038660989, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1198128177038660989, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1198128177038660989, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1198128177038660989, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1198128177038660989, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1198128177038660989, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1198128177038660989, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1198128177038660989, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1198128177038660989, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1198128177038660989, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1198128177038660989, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1198128177038660989, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1198128177038660989, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1198128177038660989, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1198128177038660989, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1198128177038660989, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1465117257469767893, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.742775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1558229032123098047, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1558229032123098047, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1558229032123098047, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 1558229032123098047, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
+    - target: {fileID: 2507690889117218954, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_Name
+      value: PizzaButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 2552279047745850127, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_Color.b
+      value: 0.6308284
+      objectReference: {fileID: 0}
+    - target: {fileID: 2552279047745850127, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2552279047745850127, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771295164697328868, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666979481028798708, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_Name
+      value: BurgerItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 3697386881978660985, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 22872480713028356}
+    - target: {fileID: 3697386881978660985, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: FoodChoice
+      objectReference: {fileID: 0}
+    - target: {fileID: 3697386881978660985, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OvenUiHandle, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4198025176658958236, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 22872480713028356}
+    - target: {fileID: 4198025176658958236, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ClaimFood
+      objectReference: {fileID: 0}
+    - target: {fileID: 4198025176658958236, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OvenUiHandle, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4761725535047799189, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_Name
+      value: OvenMenu Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4761725535047799189, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5049185983919162545, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 22872480713028356}
+    - target: {fileID: 5049185983919162545, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CancelProcess
+      objectReference: {fileID: 0}
+    - target: {fileID: 5049185983919162545, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OvenUiHandle, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5594429527666877224, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 940fe24641173da4ca6502faffe81029, type: 3}
+    - target: {fileID: 5594429527666877224, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5594429527666877224, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5594429527666877224, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5735988224713708653, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c84578facece96045b0806156900f294, type: 3}
+    - target: {fileID: 6432453634444209849, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 22872480713028356}
+    - target: {fileID: 6432453634444209849, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: FoodChoice
+      objectReference: {fileID: 0}
+    - target: {fileID: 6432453634444209849, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OvenUiHandle, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6829797379824659918, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_Name
+      value: BurgerButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 7039420668633499757, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_Name
+      value: EggButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 7433555463134565875, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_text
+      value: SELECT FOOD
+      objectReference: {fileID: 0}
+    - target: {fileID: 7433555463134565875, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7659681888378373963, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 22872480713028356}
+    - target: {fileID: 7659681888378373963, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: StartFoodProcess
+      objectReference: {fileID: 0}
+    - target: {fileID: 7659681888378373963, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OvenUiHandle, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7809032490097492335, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 22872480713028356}
+    - target: {fileID: 7809032490097492335, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: FoodChoice
+      objectReference: {fileID: 0}
+    - target: {fileID: 7809032490097492335, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OvenUiHandle, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7957962629469601688, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d022e937787ba6f44a6ad18f04df0115, type: 3}
+    - target: {fileID: 8016819433043685274, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_Name
+      value: FoodPanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122371588150335583, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: coins
+      value: 
+      objectReference: {fileID: 1902717620388812938, guid: 66dcff9eb28367e4a8b8dd18234602f2, type: 3}
+    - target: {fileID: 8122371588150335583, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: Espresso
+      value: 
+      objectReference: {fileID: 1246674552413394, guid: 2dd019f1380a8464da36c528baec5b4c, type: 3}
+    - target: {fileID: 8122371588150335583, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: Cappucino
+      value: 
+      objectReference: {fileID: 4059473235913210248, guid: 1925bb2fe2bea1c48873454234d200c2, type: 3}
+    - target: {fileID: 8122371588150335583, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122371588150335583, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: DrinkPanel
+      value: 
+      objectReference: {fileID: 3291444608039683408}
+    - target: {fileID: 8122371588150335583, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: claimButton
+      value: 
+      objectReference: {fileID: 1626707317953814631}
+    - target: {fileID: 8122371588150335583, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: RegularCoffee
+      value: 
+      objectReference: {fileID: 1008724288380868, guid: 8d57f19c265de49429f0074af4e75232, type: 3}
+    - target: {fileID: 8122371588150335583, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: coinsParticleSystem
+      value: 
+      objectReference: {fileID: 1902717620388812938, guid: 66dcff9eb28367e4a8b8dd18234602f2, type: 3}
+    - target: {fileID: 8187606143393689489, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8e2436f720d10074ea16297ac36b22d5, type: 3}
+    - target: {fileID: 8213465266441699062, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 22872480713028356}
+    - target: {fileID: 8213465266441699062, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CloseMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 8213465266441699062, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OvenUiHandle, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8219163129904574042, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      propertyPath: m_Name
+      value: PizzaItem
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8122371588150335583, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+    - {fileID: 841545346106164747, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+    - {fileID: 9042357256789486220, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+    - {fileID: 7361096601289211854, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4761725535047799189, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 22872480713028356}
+    - targetCorrespondingSourceObject: {fileID: 8016819433043685274, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3291444608039683408}
+    - targetCorrespondingSourceObject: {fileID: 6829797379824659918, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7847181384246080915}
+    - targetCorrespondingSourceObject: {fileID: 7039420668633499757, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2404799206154531076}
+    - targetCorrespondingSourceObject: {fileID: 2507690889117218954, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5182157485300873433}
+  m_SourcePrefab: {fileID: 100100000, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+--- !u!225 &322518469154697923 stripped
+CanvasGroup:
+  m_CorrespondingSourceObject: {fileID: 2929742048287966520, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+  m_PrefabInstance: {fileID: 3229459199533332475}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &960352855344471577 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2414637337131346402, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+  m_PrefabInstance: {fileID: 3229459199533332475}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1016761952512085873 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2507690889117218954, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+  m_PrefabInstance: {fileID: 3229459199533332475}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5182157485300873433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1016761952512085873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dec3eebfe47933244a2740da0683b88b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodIndex: 0
+--- !u!114 &1626707317953814631 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4198025176658958236, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+  m_PrefabInstance: {fileID: 3229459199533332475}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!225 &3084142342192500799 stripped
+CanvasGroup:
+  m_CorrespondingSourceObject: {fileID: 440309424455493572, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+  m_PrefabInstance: {fileID: 3229459199533332475}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3144753150317128748 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 537388902407494615, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+  m_PrefabInstance: {fileID: 3229459199533332475}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &4868442619552290913 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8016819433043685274, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+  m_PrefabInstance: {fileID: 3229459199533332475}
+  m_PrefabAsset: {fileID: 0}
+--- !u!225 &3291444608039683408
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4868442619552290913}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!225 &4928107704404663421 stripped
+CanvasGroup:
+  m_CorrespondingSourceObject: {fileID: 7545077285736082310, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+  m_PrefabInstance: {fileID: 3229459199533332475}
+  m_PrefabAsset: {fileID: 0}
+--- !u!225 &5422236045212495821 stripped
+CanvasGroup:
+  m_CorrespondingSourceObject: {fileID: 7489203590393272374, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+  m_PrefabInstance: {fileID: 3229459199533332475}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5575548445042442134 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7039420668633499757, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+  m_PrefabInstance: {fileID: 3229459199533332475}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2404799206154531076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5575548445042442134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dec3eebfe47933244a2740da0683b88b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodIndex: 2
+--- !u!114 &7281999029004432656 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5323117875022611179, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+  m_PrefabInstance: {fileID: 3229459199533332475}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!223 &7316529754629207224 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 5285203977862038339, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+  m_PrefabInstance: {fileID: 3229459199533332475}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7693018901674668874 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5049185983919162545, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+  m_PrefabInstance: {fileID: 3229459199533332475}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7974305235341165377 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4790480167103460538, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+  m_PrefabInstance: {fileID: 3229459199533332475}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &7981596992640083566 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4761725535047799189, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+  m_PrefabInstance: {fileID: 3229459199533332475}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &22872480713028356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7981596992640083566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6364c468f031ecb41b6d69259d351faa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OvenCanvas: {fileID: 7316529754629207224}
+  OvenCanvasGroup: {fileID: 3084142342192500799}
+  pizza: {fileID: 1000012023308628, guid: 2a79153a0e896724caa73afa19f708c8, type: 3}
+  burger: {fileID: 1000011448446114, guid: 8155176e03f33f44884efb0dd767197c, type: 3}
+  egg: {fileID: 1000012343480272, guid: 9425302b7c44a194bb8782c22588bfe2, type: 3}
+  rightHand: {fileID: 0}
+  coinsParticleSystem: {fileID: 0}
+  OvenHUD: {fileID: 0}
+  ovenProgressSlider: {fileID: 0}
+  OvenHUD_Image: {fileID: 0}
+  completedImage: {fileID: 21300000, guid: 81e6c31c2b2b2cb409620aa4a6582964, type: 3}
+  errorText: {fileID: 960352855344471577}
+  completed_progress_image: {fileID: 0}
+  machineSlider: {fileID: 7281999029004432656}
+  machineImage: {fileID: 7974305235341165377}
+  cancelButton: {fileID: 7693018901674668874}
+  claimButton: {fileID: 1626707317953814631}
+  progressPanel: {fileID: 5422236045212495821}
+  indicatorText: {fileID: 3144753150317128748}
+  FoodPanel: {fileID: 3291444608039683408}
+  pizzaGroup: {fileID: 4928107704404663421}
+  burgerGroup: {fileID: 322518469154697923}
+  eggGroup: {fileID: 8850573135246380114}
+--- !u!1 &8221612008984451637 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6829797379824659918, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+  m_PrefabInstance: {fileID: 3229459199533332475}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7847181384246080915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8221612008984451637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dec3eebfe47933244a2740da0683b88b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodIndex: 1
+--- !u!225 &8850573135246380114 stripped
+CanvasGroup:
+  m_CorrespondingSourceObject: {fileID: 6197750610548554665, guid: b0b4218a96386d542b850d1849507df7, type: 3}
+  m_PrefabInstance: {fileID: 3229459199533332475}
+  m_PrefabAsset: {fileID: 0}
