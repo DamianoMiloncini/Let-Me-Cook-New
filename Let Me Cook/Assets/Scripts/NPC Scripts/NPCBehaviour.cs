@@ -261,13 +261,24 @@ public class NPCBehaviour : MonoBehaviour
                 //StartLeavingRestaurant();
             }
 
+            
+
             if (completed_orders == 2)
             {
+                if (x1.gameObject.activeSelf || x2.gameObject.activeSelf)
+                {
+                   // Debug.Log("Order failed.");
+                    StartCoroutine(FadeOutRoutine());
+                    
+                    
+                    return;
+                }
                 //Debug.Log("Order done!");
+                GameManager.Instance.player_money = GameManager.Instance.player_money + 25;
                 StartCoroutine(FadeOutRoutine());
 
                 // Set NPC to leave the restaurant
-                //StartLeavingRestaurant();
+                
             }
         }
     }
@@ -289,6 +300,7 @@ public class NPCBehaviour : MonoBehaviour
         canvasGroup.alpha = 0; // Ensure it's fully transparent.
         canvasGroup.interactable = false; // Disable interaction.
         canvasGroup.blocksRaycasts = false; // Disable blocking raycasts.
+        StartLeavingRestaurant();
     }
 
     void StartLeavingRestaurant()
