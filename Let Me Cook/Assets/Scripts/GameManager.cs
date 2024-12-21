@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI Datetext;
     public TextMeshProUGUI timetext;
     public TextMeshProUGUI Daytext;
+    public float remainingTime = 180;
     private int currentMoney = 0;
     public TextMeshProUGUI moneyCounter;
     public TextMeshProUGUI itemPrice;
