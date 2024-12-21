@@ -156,7 +156,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 74, y: 50}
+  m_AnchoredPosition: {x: 74, y: -36}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &195160974
@@ -179,15 +179,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "In Let Me Cook, you\u2019re the chef, racing against time to serve customers
-    and upgrade your kitchen. Here\u2019s what you need to know:\n\nComplete each
-    level by serving all customers. Levels get harder as you progress, with more
-    customers and limited time.\n\nUse your coins to buy kitchen upgrades after each
-    level. \n\nGood luck, Chef! Upgrade wisely, stay quick, and watch your kitchen
-    become the ultimate cooking hotspot!"
+  m_text: 'Congratulations!
+
+    You cooked!'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
+  m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -211,8 +208,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 100
-  m_fontSizeBase: 100
+  m_fontSize: 200
+  m_fontSizeBase: 200
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -506,8 +503,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -13, y: -425}
-  m_SizeDelta: {x: 359.27332, y: 67.11603}
+  m_AnchoredPosition: {x: 823, y: -441.2874}
+  m_SizeDelta: {x: 192.64, y: 99.6908}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1101633507
 MonoBehaviour:
@@ -597,7 +594,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2a9f0280ab5da454a92b4073e620c765, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a9e4c36a320771e4aa8af2dd3c44d0bb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1079,8 +1076,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -92}
-  m_SizeDelta: {x: 6116.2983, y: 2934.974}
+  m_AnchoredPosition: {x: 9.6747, y: -96}
+  m_SizeDelta: {x: 6205.6567, y: 1850.0796}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1893682003
 MonoBehaviour:
