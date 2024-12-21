@@ -9,8 +9,8 @@ public class NPCSpawner : MonoBehaviour
     public Transform exitPoint;
     public Transform[] walkAroundPoints;
 
-    public float spawnInterval = 5f;
-    public int maxNPCs = 3;
+    private float spawnInterval = 8f;
+    private int maxNPCs = 2;
 
     private List<GameObject> activeNPCs = new List<GameObject>(); 
     private float spawnTimer;
