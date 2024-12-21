@@ -48,9 +48,15 @@ public class GameManager : MonoBehaviour
     public Image image9;
     public Image image10;
 
+    private int player_level = 1;
 
     // Money
     public int player_money = 0;
+
+    public int customers_served = 0;
+    public int customers_served_correctly = 0;
+
+    private int level_requirement = 0;
 
     void Awake()
     {
@@ -69,6 +75,18 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log(prefabThumbnails.Count);
         // Initialize the dictionary at runtime
+
+
+        // UPDATING THE LEVELS
+        switch (player_level)
+        {
+            case 1:
+                level_requirement = 6; break;
+            case 2:
+                level_requirement = 10; break;
+            case 3:
+                level_requirement = 12; break;
+        }
         
 
         levelTracker();
@@ -78,6 +96,15 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+
+        // DETERMIING IF THE LEVEL IS COMPLETED
+        if (customers_served >= level_requirement)
+        {
+            SceneManager.LoadScene("Win");
+        }
+
+
         if (remainingTime > 0f)
         {
             remainingTime -= Time.deltaTime;
@@ -99,6 +126,7 @@ public class GameManager : MonoBehaviour
 
             //move to end scene
         }
+
         int mins = Mathf.FloorToInt(remainingTime / 60);
         int sec = Mathf.FloorToInt(remainingTime % 60);
         timetext.text = string.Format("{0:00}:{1:00}", mins, sec);
@@ -108,6 +136,8 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha3)) SelectItem(2); // Key "3" corresponds to index 2
         if (Input.GetKeyDown(KeyCode.Alpha4)) SelectItem(3); // Key "4" corresponds to index 3
         if (Input.GetKeyDown(KeyCode.Alpha5)) SelectItem(4); // Key "5" corresponds to index 4
+
+        
     }
 
     void SelectItem(int index)

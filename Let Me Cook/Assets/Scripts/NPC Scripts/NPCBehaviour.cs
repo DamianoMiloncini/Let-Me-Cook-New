@@ -267,13 +267,16 @@ public class NPCBehaviour : MonoBehaviour
             {
                 if (x1.gameObject.activeSelf || x2.gameObject.activeSelf)
                 {
-                   // Debug.Log("Order failed.");
+                    GameManager.Instance.customers_served++;
+                    // Debug.Log("Order failed.");
                     StartCoroutine(FadeOutRoutine());
                     
                     
                     return;
                 }
                 //Debug.Log("Order done!");
+                GameManager.Instance.customers_served++;
+                GameManager.Instance.customers_served_correctly++;
                 GameManager.Instance.player_money = GameManager.Instance.player_money + 25;
                 StartCoroutine(FadeOutRoutine());
 
