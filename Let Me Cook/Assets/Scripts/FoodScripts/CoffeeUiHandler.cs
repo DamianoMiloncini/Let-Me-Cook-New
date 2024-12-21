@@ -14,6 +14,8 @@ public class CoffeeUiHandler : MonoBehaviour
 
     // Coffee Prefabs
     public GameObject RegularCoffee;
+    public AudioSource src;
+    public AudioClip sfx1, sfx2;
     public GameObject Espresso;
     public GameObject Cappucino;
 
@@ -129,6 +131,8 @@ public class CoffeeUiHandler : MonoBehaviour
 
     private IEnumerator AnimateCoffeeProgress()
     {
+        src.clip = sfx1;
+        src.Play();
         // Make sure the slider is visible and reset its value
         coffeeProgressSlider.value = 0f;
         coffeeProgressSlider.gameObject.SetActive(true);
@@ -228,6 +232,8 @@ public class CoffeeUiHandler : MonoBehaviour
 
     public void ClaimCoffee()
     {
+        src.clip = sfx2;
+        src.Play();
         Debug.Log("Coffee Claimed!");
         Debug.Log(selectedOption);
         GameObject coffee = CreatedCoffee(selectedOption);

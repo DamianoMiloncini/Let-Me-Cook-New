@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI Datetext;
     public TextMeshProUGUI timetext;
     public TextMeshProUGUI Daytext;
+    public float remainingTime = 180;
     private int currentMoney = 0;
     public TextMeshProUGUI moneyCounter;
     public TextMeshProUGUI itemPrice;
@@ -77,6 +78,30 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (remainingTime > 0f)
+        {
+            remainingTime -= Time.deltaTime;
+        }
+        else if (remainingTime < 0f)
+        {
+            remainingTime = 0;
+            UnityEngine.Debug.Log("max time reached");
+            if (remainingTime == 0)
+            {
+                SceneManager.LoadScene("Win");
+
+            }
+            else
+            {
+                SceneManager.LoadScene("Lose");
+
+            }
+
+            //move to end scene
+        }
+        int mins = Mathf.FloorToInt(remainingTime / 60);
+        int sec = Mathf.FloorToInt(remainingTime % 60);
+        timetext.text = string.Format("{0:00}:{1:00}", mins, sec);
         moneyCounter.text = player_money + "$";
         if (Input.GetKeyDown(KeyCode.Alpha1)) SelectItem(0); // Key "1" corresponds to index 0
         if (Input.GetKeyDown(KeyCode.Alpha2)) SelectItem(1); // Key "2" corresponds to index 1
@@ -159,7 +184,7 @@ public class GameManager : MonoBehaviour
         {
             // Format the date and time for a friendly look
             Datetext.text = DateTime.Now.ToString("dddd, MMMM dd, yyyy");
-            timetext.text = DateTime.Now.ToString("hh:mm:ss tt");
+            //timetext.text = DateTime.Now.ToString("hh:mm:ss tt");
         }
     }
     private void levelTracker()
